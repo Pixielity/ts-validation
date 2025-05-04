@@ -14,5 +14,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - PartialType utility for creating new types with optional properties
 - IntersectionType utility for creating new types by intersecting multiple classes
 - Support for inheriting class-validator metadata
-- Support for inheriting class-transformer metadata
 - Support for inheriting property initializers

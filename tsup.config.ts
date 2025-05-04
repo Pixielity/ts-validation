@@ -9,7 +9,7 @@ export default defineConfig({
   clean: true,
   minify: false,
   treeshake: true,
-  external: ['class-validator', 'class-transformer', 'reflect-metadata'],
+  external: ['class-validator', 'reflect-metadata'],
   esbuildOptions(options) {
     options.footer = {
       js: 'if (typeof module !== "undefined") { module.exports = module.exports.default; }',

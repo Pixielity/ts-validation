@@ -5,7 +5,7 @@
 [![Build Status](https://github.com/pixielity/mapped-types/workflows/CI/badge.svg)](https://github.com/pixielity/mapped-types/actions)
 [![Coverage Status](https://coveralls.io/repos/github/pixielity/mapped-types/badge.svg?branch=main)](https://coveralls.io/github/pixielity/mapped-types?branch=main)
 
-A utility library for creating mapped types in TypeScript with support for class-validator and class-transformer metadata inheritance.
+A utility library for creating mapped types in TypeScript with support for class-validator metadata inheritance.
 
 ## Installation
 
@@ -16,7 +16,7 @@ npm install @pixielity/mapped-types
 For validation and transformation features, install the optional peer dependencies:
 
 ```bash
-npm install class-validator class-transformer reflect-metadata
+npm install class-validator reflect-metadata
 ```
 
 ## Features
@@ -24,9 +24,8 @@ npm install class-validator class-transformer reflect-metadata
 - Create new types by picking, omitting, or making properties optional
 - Create intersection types from multiple classes
 - Inherit validation metadata from class-validator
-- Inherit transformation metadata from class-transformer
 - Inherit property initializers from source classes
-- Zero dependencies (class-validator and class-transformer are optional)
+- Zero dependencies (class-validator are optional)
 
 ## Usage
 
